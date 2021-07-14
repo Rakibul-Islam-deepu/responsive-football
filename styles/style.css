@@ -21,7 +21,7 @@ body{
     
 }
 .tittle{
-    width: 485px;
+    width: 455px;
     height: 230px;
     margin-left: 138px;
     margin-top: 207px;
@@ -66,7 +66,9 @@ main{
     justify-content: center;
 }
 
-/* players style section */
+/* -----------------
+players style section 
+-------------------*/
 .second-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -83,7 +85,9 @@ main{
     width: 300px;
     height: 256px;
 }
-
+.player:hover{
+    box-shadow: 10px 10px 10px 5px #2D25A0;
+}
 .player-info h3{
     font-size: 28px;
 }
@@ -122,4 +126,35 @@ footer a img{
 }
 #f-text{
     font-size: 18px;
+}
+/* -----------------
+media queries
+------------------ */
+
+/* mobile-devisec */
+@media only screen and (max-width:688px){
+  
+  .container{
+      width: 100%;
+  }
+  .first-container, .second-container{
+    grid-template-columns: repeat(1, 1fr);  
+  
+  }
+  .first-container{
+      height: 0%;
+  }
+  .tittle{
+      font-size: 26px;
+      width: 310px;
+  }
+  .banner img{
+      
+   margin-left: 70px;
+    width: 320px;
+    height: 300px;
+  }
+footer{
+    width: 100%;
+}
 }
