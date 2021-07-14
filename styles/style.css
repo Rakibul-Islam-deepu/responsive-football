@@ -131,7 +131,7 @@ footer a img{
 media queries
 ------------------ */
 
-/* mobile-devisec */
+/* mobile-device*/
 @media only screen and (max-width:688px){
   
   .container{
@@ -145,14 +145,15 @@ media queries
       height: 0%;
   }
   .tittle{
+   
       font-size: 26px;
       width: 310px;
   }
   .banner img{
-      
-   margin-left: 70px;
-    width: 320px;
-    height: 300px;
+      margin-left: 100px;
+   margin-right: 120px;
+    width: 300px;
+    height: 280px;
   }
 footer{
     width: 100%;
